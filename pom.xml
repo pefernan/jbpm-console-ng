@@ -66,6 +66,7 @@
     <module>jbpm-wb-common</module>
     <module>jbpm-wb-case-mgmt</module>
     <module>jbpm-wb-showcase</module>
+    <module>jbpm-wb-cms</module>
   </modules>
 
   <dependencyManagement>

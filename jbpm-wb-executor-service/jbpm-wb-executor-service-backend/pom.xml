@@ -29,7 +29,7 @@
   <name>jBPM Workbench - Executor Service Backend</name>
 
   <properties>
-    <java.module.name>org.jbpm.wb.executor.service.backend</java.module.name>
+    <java.module.name>org.jbpm.workbench.executor.service.backend</java.module.name>
   </properties>
 
   <dependencies>

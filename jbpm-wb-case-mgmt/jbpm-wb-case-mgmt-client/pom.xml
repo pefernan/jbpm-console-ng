@@ -30,7 +30,7 @@
   <name>jBPM Workbench - Case Management Client</name>
 
   <properties>
-    <java.module.name>org.jbpm.wb.casemgmt.client</java.module.name>
+    <java.module.name>org.jbpm.workbench.casemgmt.client</java.module.name>
   </properties>
 
   <dependencies>

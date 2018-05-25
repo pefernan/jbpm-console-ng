@@ -30,7 +30,7 @@
   <name>jBPM Workbench - Case Management Backend</name>
 
   <properties>
-    <java.module.name>org.jbpm.wb.casemgmt.backend</java.module.name>
+    <java.module.name>org.jbpm.workbench.casemgmt.backend</java.module.name>
   </properties>
 
   <dependencies>

@@ -30,7 +30,7 @@
   <name>jBPM Workbench - Integration Client</name>
 
   <properties>
-    <java.module.name>org.jbpm.wb.integration.client</java.module.name>
+    <java.module.name>org.jbpm.workbench.integration.client</java.module.name>
   </properties>
 
   <dependencies>

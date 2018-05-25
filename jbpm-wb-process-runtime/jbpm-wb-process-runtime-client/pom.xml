@@ -30,7 +30,7 @@
   <name>jBPM Workbench - Process Runtime Client</name>
 
   <properties>
-    <java.module.name>org.jbpm.wb.process.runtime.client</java.module.name>
+    <java.module.name>org.jbpm.workbench.process.runtime.client</java.module.name>
   </properties>
 
   <dependencies>

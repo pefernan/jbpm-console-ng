@@ -27,7 +27,6 @@ import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.user.client.ui.FlowPanel;
 import com.google.gwt.user.client.ui.FormPanel;
 import com.google.gwt.user.client.ui.IsWidget;
-import com.google.gwt.user.client.ui.Panel;
 import org.gwtbootstrap3.client.ui.Button;
 import org.gwtbootstrap3.client.ui.ButtonGroup;
 import org.gwtbootstrap3.client.ui.constants.ButtonType;
@@ -253,7 +252,7 @@ public abstract class AbstractHumanTaskFormDisplayer<S extends FormRenderingSett
     }
 
     @Override
-    public Panel getContainer() {
+    public IsWidget getContainer() {
         return container;
     }
 

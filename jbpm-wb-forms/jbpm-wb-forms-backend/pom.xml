@@ -13,7 +13,7 @@
   <name>jBPM Workbench - Forms Backend</name>
 
   <properties>
-    <java.module.name>org.jbpm.wb.forms.backend</java.module.name>
+    <java.module.name>org.jbpm.workbench.forms.backend</java.module.name>
   </properties>
 
   <dependencies>

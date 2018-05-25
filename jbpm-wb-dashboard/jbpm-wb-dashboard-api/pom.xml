@@ -15,7 +15,7 @@
   <name>jBPM Workbench - Dashboard API</name>
 
   <properties>
-    <java.module.name>org.jbpm.wb.dashboard.api</java.module.name>
+    <java.module.name>org.jbpm.workbench.dashboard.api</java.module.name>
   </properties>
 
   <dependencies>

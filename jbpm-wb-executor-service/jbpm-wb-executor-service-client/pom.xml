@@ -29,7 +29,7 @@
   <name>jBPM Workbench - Executor Service Client</name>
 
   <properties>
-    <java.module.name>org.jbpm.wb.executor.service.client</java.module.name>
+    <java.module.name>org.jbpm.workbench.executor.service.client</java.module.name>
   </properties>
 
   <dependencies>

@@ -17,7 +17,6 @@
 package org.jbpm.workbench.forms.client.display;
 
 import com.google.gwt.user.client.ui.IsWidget;
-import com.google.gwt.user.client.ui.Panel;
 import org.jbpm.workbench.forms.display.FormDisplayerConfig;
 import org.jbpm.workbench.forms.display.FormRenderingSettings;
 import org.jbpm.workbench.common.service.ItemKey;
@@ -31,7 +30,7 @@ public interface GenericFormDisplayer<T extends ItemKey, S extends FormRendering
               Command onCloseCommand,
               Command onRefreshCommand);
 
-    Panel getContainer();
+    IsWidget getContainer();
 
     IsWidget getFooter();
 

@@ -27,7 +27,7 @@
   <name>jBPM Workbench - Human Tasks Backend</name>
 
   <properties>
-    <java.module.name>org.jbpm.wb.task.backend</java.module.name>
+    <java.module.name>org.jbpm.workbench.task.backend</java.module.name>
   </properties>
 
   <dependencies>

@@ -14,7 +14,7 @@
   <name>jBPM Workbench - Dashboard Backend</name>
 
   <properties>
-    <java.module.name>org.jbpm.wb.dashboard.backend</java.module.name>
+    <java.module.name>org.jbpm.workbench.dashboard.backend</java.module.name>
   </properties>
 
   <dependencies>

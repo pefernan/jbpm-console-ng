@@ -30,7 +30,7 @@
   <name>jBPM Workbench - Human Tasks Client</name>
 
   <properties>
-    <java.module.name>org.jbpm.wb.task.client</java.module.name>
+    <java.module.name>org.jbpm.workbench.task.client</java.module.name>
   </properties>
 
   <dependencies>

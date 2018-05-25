@@ -30,7 +30,7 @@
   <name>jBPM Workbench - Common Client</name>
 
   <properties>
-    <java.module.name>org.jbpm.wb.common.client</java.module.name>
+    <java.module.name>org.jbpm.workbench.common.client</java.module.name>
   </properties>
 
   <dependencies>

@@ -23,6 +23,7 @@ import javax.enterprise.event.Event;
 import javax.inject.Inject;
 
 import com.google.gwt.core.client.GWT;
+import com.google.gwt.dom.client.Style;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.user.client.DOM;
@@ -30,7 +31,6 @@ import com.google.gwt.user.client.ui.FlowPanel;
 import com.google.gwt.user.client.ui.FocusPanel;
 import com.google.gwt.user.client.ui.FormPanel;
 import com.google.gwt.user.client.ui.IsWidget;
-import com.google.gwt.user.client.ui.Panel;
 import org.gwtbootstrap3.client.shared.event.HideEvent;
 import org.gwtbootstrap3.client.shared.event.HideHandler;
 import org.gwtbootstrap3.client.ui.Anchor;
@@ -60,8 +60,6 @@ import org.uberfire.mvp.Command;
 import org.uberfire.workbench.events.NotificationEvent;
 
 public abstract class AbstractStartProcessFormDisplayer<S extends FormRenderingSettings> implements StartProcessFormDisplayer<S> {
-
-    public static final String ACTION_START_PROCESS = "startProcess";
 
     protected Constants constants = GWT.create(Constants.class);
 
@@ -165,6 +163,10 @@ public abstract class AbstractStartProcessFormDisplayer<S extends FormRenderingS
             add(collapse);
         }});
 
+        PanelBody formBody = new PanelBody();
+        formBody.add(getFormWidget());
+        formBody.getElement().getStyle().setPadding(15, Style.Unit.PX);
+
         accordion.add(new org.gwtbootstrap3.client.ui.Panel() {{
             final PanelCollapse collapse = new PanelCollapse() {{
                 setIn(true);
@@ -174,9 +176,7 @@ public abstract class AbstractStartProcessFormDisplayer<S extends FormRenderingS
                         hideEvent.stopPropagation();
                     }
                 });
-                add(new PanelBody() {{
-                    add(getFormWidget());
-                }});
+                add(formBody);
             }};
             add(new PanelHeader() {{
                 add(new Heading(HeadingSize.H4) {{
@@ -209,7 +209,7 @@ public abstract class AbstractStartProcessFormDisplayer<S extends FormRenderingS
     }
 
     @Override
-    public Panel getContainer() {
+    public IsWidget getContainer() {
         return container;
     }
 
