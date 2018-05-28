@@ -28,6 +28,8 @@
 
   <inherits name="org.jbpm.workbench.forms.JbpmWorkbenchFormsClient"/>
 
+  <inherits name="org.jbpm.workbench.ht.JbpmWorkbenchHumanTasksClient"/>
+
   <source path="client" />
 
 </module>

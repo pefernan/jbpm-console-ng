@@ -86,6 +86,16 @@
 
     <dependency>
       <groupId>org.jbpm</groupId>
+      <artifactId>jbpm-wb-common-client</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.jbpm</groupId>
+      <artifactId>jbpm-wb-human-tasks-client</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.jbpm</groupId>
       <artifactId>jbpm-wb-cms-api</artifactId>
     </dependency>
   </dependencies>
